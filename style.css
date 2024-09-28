@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-color: #857575; 
+}
+
+.chess-board {
+    width: 640px; 
+    height: 640px; 
+}
+
+.chess-board td {
+    width: 80px; 
+    height: 80px; 
+    text-align: center; 
+    vertical-align: middle; 
+    font-size: 60px; 
+}
+
+.white {
+    background-color: #442f00; 
+}
+
+.black {
+    background-color: #c9b17e; 
+}
